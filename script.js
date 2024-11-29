@@ -1,4 +1,4 @@
-// Update online status randomly
+// Actualizar el estado en línea de forma aleatoria
 function updateOnlineStatus() {
     const status = document.querySelector('.status');
     const indicator = document.querySelector('.status-indicator');
@@ -18,5 +18,5 @@ function updateOnlineStatus() {
     }
 }
 
-// Update status every 30 seconds
+// Actualizar estado cada 30 segundos
 setInterval(updateOnlineStatus, 30000);
